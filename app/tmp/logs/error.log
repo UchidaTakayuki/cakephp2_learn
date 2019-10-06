@@ -1,0 +1,455 @@
+2019-09-23 20:43:43 Error: [MissingControllerException] Controller class SampleController could not be found.
+Exception Attributes: array (
+  'class' => 'SampleController',
+  'plugin' => NULL,
+)
+Request URL: /sample
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-23 21:12:04 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/var/www/html/app/Controller/TasksController.php, line 13]
+2019-09-23 21:12:04 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /Tasks
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 13, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 13, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-23 21:12:35 Error: [MissingViewException] View file "Tasks/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tasks/index.ctp',
+)
+Request URL: /Tasks
+Stack Trace:
+#0 /var/www/html/lib/Cake/View/View.php(470): View->_getViewFileName('index')
+#1 /var/www/html/lib/Cake/Controller/Controller.php(968): View->render('index', NULL)
+#2 /var/www/html/app/Controller/TasksController.php(8): Controller->render('index')
+#3 [internal function]: TasksController->index()
+#4 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#5 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#7 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-09-23 21:16:43 Error: Fatal Error (4): syntax error, unexpected 'l' (T_STRING), expecting ',' or ';' in [/var/www/html/app/View/Tasks/index.ctp, line 1]
+2019-09-23 21:16:43 Error: [FatalErrorException] syntax error, unexpected 'l' (T_STRING), expecting ',' or ';'
+Request URL: /Tasks
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 1, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 1, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:18:58 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/var/www/html/app/View/Tasks/index.ctp, line 23]
+2019-09-24 00:18:58 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:19:23 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/var/www/html/app/View/Tasks/index.ctp, line 23]
+2019-09-24 00:19:23 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:19:41 Error: Fatal Error (4): syntax error, unexpected 'endforeach' (T_ENDFOREACH) in [/var/www/html/app/View/Tasks/index.ctp, line 23]
+2019-09-24 00:19:41 Error: [FatalErrorException] syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 23, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:20:29 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS), expecting ';' in [/var/www/html/app/View/Tasks/index.ctp, line 11]
+2019-09-24 00:20:29 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS), expecting ';'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:20:30 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS), expecting ';' in [/var/www/html/app/View/Tasks/index.ctp, line 11]
+2019-09-24 00:20:30 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS), expecting ';'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:20:38 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS), expecting ';' in [/var/www/html/app/View/Tasks/index.ctp, line 11]
+2019-09-24 00:20:38 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS), expecting ';'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:20:40 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS), expecting ';' in [/var/www/html/app/View/Tasks/index.ctp, line 11]
+2019-09-24 00:20:40 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS), expecting ';'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:20:40 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS), expecting ';' in [/var/www/html/app/View/Tasks/index.ctp, line 11]
+2019-09-24 00:20:40 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS), expecting ';'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:20:40 Error: Fatal Error (4): syntax error, unexpected 'as' (T_AS), expecting ';' in [/var/www/html/app/View/Tasks/index.ctp, line 11]
+2019-09-24 00:20:40 Error: [FatalErrorException] syntax error, unexpected 'as' (T_AS), expecting ';'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 11, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 00:29:06 Error: [MissingControllerException] Controller class TaskController could not be found.
+Exception Attributes: array (
+  'class' => 'TaskController',
+  'plugin' => NULL,
+)
+Request URL: /Task/done/4
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-24 00:37:36 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'body' doesn't have a default value
+Request URL: /Tasks/create
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/html/lib/Cake/Model/Model.php(1942): DboSource->create(Object(AppModel), Array, Array)
+#4 /var/www/html/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /var/www/html/app/Controller/TasksController.php(30): Model->save(Array)
+#6 [internal function]: TasksController->create()
+#7 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#8 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#10 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-24 14:44:02 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/html/app/Model/Task.php, line 18]
+2019-09-24 14:44:02 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 18, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 18, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 14:44:23 Error: Fatal Error (1): Class 'AppModesl' not found in [/var/www/html/app/Model/Task.php, line 2]
+2019-09-24 14:44:23 Error: [FatalErrorException] Class 'AppModesl' not found
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppModes...', '/var/www/html/a...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModes...', '/var/www/html/a...', 2, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModes...', '/var/www/html/a...', 2, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 14:44:32 Error: Fatal Error (1): Class 'AppModels' not found in [/var/www/html/app/Model/Task.php, line 2]
+2019-09-24 14:44:32 Error: [FatalErrorException] Class 'AppModels' not found
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', '/var/www/html/a...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', '/var/www/html/a...', 2, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', '/var/www/html/a...', 2, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-24 14:53:06 Error: [MissingControllerException] Controller class TaskController could not be found.
+Exception Attributes: array (
+  'class' => 'TaskController',
+  'plugin' => NULL,
+)
+Request URL: /Task/view/8
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-24 15:02:59 Error: [MissingControllerException] Controller class TaskController could not be found.
+Exception Attributes: array (
+  'class' => 'TaskController',
+  'plugin' => NULL,
+)
+Request URL: /Task/view/1
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-28 17:56:57 Error: [MissingControllerException] Controller class TaskController could not be found.
+Exception Attributes: array (
+  'class' => 'TaskController',
+  'plugin' => NULL,
+)
+Request URL: /Task/create
+Stack Trace:
+#0 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-28 18:01:20 Error: [MissingActionException] Action TasksController::edit1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'edit1',
+)
+Request URL: /Tasks/edit1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(544): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(503): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-28 18:14:52 Error: Fatal Error (4): syntax error, unexpected '$task' (T_VARIABLE) in [/var/www/html/app/Controller/TasksController.php, line 50]
+2019-09-28 18:14:52 Error: [FatalErrorException] syntax error, unexpected '$task' (T_VARIABLE)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 50, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 50, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:21:38 Error: Fatal Error (4): syntax error, unexpected '$task' (T_VARIABLE) in [/var/www/html/app/Controller/TasksController.php, line 50]
+2019-09-28 18:21:38 Error: [FatalErrorException] syntax error, unexpected '$task' (T_VARIABLE)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 50, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 50, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:22:05 Error: Fatal Error (4): syntax error, unexpected '$tasks' (T_VARIABLE) in [/var/www/html/app/Controller/TasksController.php, line 50]
+2019-09-28 18:22:05 Error: [FatalErrorException] syntax error, unexpected '$tasks' (T_VARIABLE)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 50, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 50, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:22:14 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']' in [/var/www/html/app/Controller/TasksController.php, line 57]
+2019-09-28 18:22:14 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:24:09 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']' in [/var/www/html/app/Controller/TasksController.php, line 57]
+2019-09-28 18:24:09 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:24:11 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']' in [/var/www/html/app/Controller/TasksController.php, line 57]
+2019-09-28 18:24:11 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:24:56 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']' in [/var/www/html/app/Controller/TasksController.php, line 57]
+2019-09-28 18:24:56 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:24:58 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']' in [/var/www/html/app/Controller/TasksController.php, line 57]
+2019-09-28 18:24:58 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:26:17 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/var/www/html/app/Controller/TasksController.php, line 57]
+2019-09-28 18:26:17 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /Tasks/index
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 57, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:26:29 Error: [MissingActionException] Action TasksController::edit1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'edit1',
+)
+Request URL: /Tasks/edit1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(544): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(503): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-28 18:26:57 Error: [MissingActionException] Action TasksController::edit1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'edit1',
+)
+Request URL: /Tasks/edit1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(544): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(503): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-28 18:26:58 Error: [MissingActionException] Action TasksController::edit1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'edit1',
+)
+Request URL: /Tasks/edit1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(544): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(503): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-28 18:27:00 Error: [MissingActionException] Action TasksController::edit1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'edit1',
+)
+Request URL: /Tasks/edit1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(544): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(503): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-28 18:27:07 Error: [MissingActionException] Action TasksController::edit1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'edit1',
+)
+Request URL: /Tasks/edit1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(544): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(503): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-28 18:27:08 Error: [MissingActionException] Action TasksController::edit1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TasksController',
+  'action' => 'edit1',
+)
+Request URL: /Tasks/edit1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Controller/Scaffold.php(152): Scaffold->_scaffold(Object(CakeRequest))
+#1 /var/www/html/lib/Cake/Controller/Controller.php(544): Scaffold->__construct(Object(TasksController), Object(CakeRequest))
+#2 /var/www/html/lib/Cake/Controller/Controller.php(503): Controller->_getScaffold(Object(CakeRequest))
+#3 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#5 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-28 18:27:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Task.stasus' in 'where clause'
+Request URL: /Tasks/edit/1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Task`.`...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Task`.`...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Task`.`...', false)
+#4 /var/www/html/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Task), Array)
+#5 /var/www/html/lib/Cake/Model/Model.php(3025): Model->_readDataSource('first', Array)
+#6 /var/www/html/app/Controller/TasksController.php(50): Model->find('first', Array)
+#7 [internal function]: TasksController->edit('1')
+#8 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#11 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-09-28 18:27:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Task.stasus' in 'where clause'
+Request URL: /Tasks/edit/1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Task`.`...', Array)
+#2 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Task`.`...', Array, Array)
+#3 /var/www/html/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Task`.`...', false)
+#4 /var/www/html/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Task), Array)
+#5 /var/www/html/lib/Cake/Model/Model.php(3025): Model->_readDataSource('first', Array)
+#6 /var/www/html/app/Controller/TasksController.php(50): Model->find('first', Array)
+#7 [internal function]: TasksController->edit('1')
+#8 /var/www/html/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(TasksController), Array)
+#9 /var/www/html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TasksController), Object(CakeRequest))
+#11 /var/www/html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-09-28 18:27:51 Error: Fatal Error (4): syntax error, unexpected 'status' (T_STRING), expecting function (T_FUNCTION) in [/var/www/html/app/Controller/TasksController.php, line 44]
+2019-09-28 18:27:51 Error: [FatalErrorException] syntax error, unexpected 'status' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /Tasks/edit/1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/a...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/a...', 44, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/a...', 44, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-09-28 18:28:04 Error: Fatal Error (1): Call to a member function save() on null in [/var/www/html/app/Controller/TasksController.php, line 61]
+2019-09-28 18:28:04 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /Tasks/edit/1
+Stack Trace:
+#0 /var/www/html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/a...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/a...', 61, Array)
+#2 /var/www/html/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/a...', 61, Array)
+#3 /var/www/html/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
